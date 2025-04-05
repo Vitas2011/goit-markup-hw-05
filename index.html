@@ -448,6 +448,26 @@
             </li>
           </ul>
         </div>
+        <div class="footer-form-box">
+          <p class="footer-form-text">Subscribe</p>
+          <form class="footer-form">
+            <label aria-label="footer-email" class="footer-label">
+              <input
+                class="footer-input"
+                type="email"
+                name="email"
+                id="email"
+                placeholder="E-mail"
+              />
+            </label>
+            <button type="submit" class="footer-btn">
+              Subscribe
+              <svg class="footer-icon-frame" width="24" height="24">
+                <use href="./css/styles.css#icon-frame"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <div class="backdrop is-open">
@@ -496,6 +516,32 @@
                 <use href="./images/icons.svg#icon-email"></use>
               </svg>
             </div>
+          </div>
+          <div class="modal-comment">
+            <label for="user-text" class="modal-label">Comment</label>
+            <textarea
+              name="user-text"
+              id="user-text"
+              class="modal-textarea"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+          <div class="modal-field">
+            <input
+              type="checkbox"
+              name="policy"
+              id="policy"
+              class="modal-check visually-hidden"
+              value="thue"
+            />
+            <label for="policy" class="modal-check-text">
+              <span class="modal-checkbox">
+                <svg class="modal-checkbox-icon" width="10" height="8">
+                  <use href="./css/styles.css#icon-check"></use>
+                </svg> </span
+              >I accept the terms and conditions of the&nbsp;
+              <a class="modal-check-a" href="">Privacy Policy</a>
+            </label>
           </div>
           <button class="modal-btm" type="button">Send</button>
         </form>
