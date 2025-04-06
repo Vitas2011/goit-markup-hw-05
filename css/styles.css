@@ -671,6 +671,10 @@ textarea::placeholder {
     fill: #4D5AE5;
 }
 
+.modal-input:focus {
+    border-color: #4D5AE5;
+}
+
 .modal-field {
     margin-bottom: 8px;
     width: 360px;
