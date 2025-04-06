@@ -571,7 +571,6 @@ textarea::placeholder {
     width: 100%;
     height: 100%;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
@@ -596,7 +595,6 @@ textarea::placeholder {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    padding: 24px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding-top: 72px;
     padding-right: 24px;
@@ -649,7 +647,6 @@ textarea::placeholder {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
-    margin-top: 72px;
     margin-bottom: 16px;
 }
 
@@ -667,13 +664,8 @@ textarea::placeholder {
 }
 
 
-.modal-input:hover,
 .modal-input:focus {
-  border-color: #4D5AE5;
-}
-
-.modal-input:hover + .modal-icon {
-    fill: #4D5AE5;
+  fill: none;
 }
 
 .modal-field {
@@ -684,6 +676,7 @@ textarea::placeholder {
 
 .modal-field-checkbox {
   margin-bottom: 24px;
+  min-height: 0;
 }
 
 .modal-input-wrap {
@@ -796,7 +789,7 @@ textarea::placeholder {
     cursor: pointer;
     border: none;
 
-    min-width: 169px
+    min-width: 169px;
     font-weight: 500;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
