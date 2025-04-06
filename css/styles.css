@@ -667,6 +667,10 @@ textarea::placeholder {
   fill: #4D5AE5;
 }
 
+.modal-input:hover +.modal-icon {
+    fill: #4D5AE5;
+}
+
 .modal-field {
     margin-bottom: 8px;
     width: 360px;
