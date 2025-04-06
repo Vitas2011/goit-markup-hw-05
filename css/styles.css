@@ -632,7 +632,6 @@ textarea::placeholder {
 .modal-close-btm:focus {
   background-color: #404BBF;
   border: none;
-  fill: #FFFFFF;
 }
 
 .icons-close:hover,
@@ -664,8 +663,8 @@ textarea::placeholder {
 }
 
 
-.modal-input:focus {
-  fill: none;
+.modal-input:focus-within + .modal-icon {
+  fill: #4D5AE5;
 }
 
 .modal-field {
@@ -744,7 +743,6 @@ textarea::placeholder {
     line-height: 1.16667;
     letter-spacing: 0.04em;
     color: #8E8F99;
-    display: flex;
     align-items: center;
     line-height: 1.17;
 }
