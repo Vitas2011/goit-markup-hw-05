@@ -677,7 +677,7 @@ textarea::placeholder {
 }
 
 .modal-field {
-    margin-bottom: 24px;
+    margin-bottom: 8px;
     width: 360px;
     min-height: 58px;
 }
@@ -749,25 +749,26 @@ textarea::placeholder {
     color: #8E8F99;
     display: flex;
     align-items: center;
+    line-height: 1.17;
+}
 
-    a {
-        line-height: 1.33333;
-        text-decoration: underline;
-        text-decoration-skip-ink: none;
-        color: #4D5AE5;
-    }
+.modal-checkbox {
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    border: 1px solid #2E2F42;
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
+}
 
-    span  {
-        width: 16px;
-        height: 16px;
-        border-radius: 2px;
-        border: 1px solid #2E2F42;
-        margin-right: 8px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        fill: transparent;
-    }
+.modal-check-a {
+    line-height: 1.33333;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #4D5AE5;
 }
 
 .modal-check:checked + .modal-check-text span {
@@ -781,15 +782,17 @@ textarea::placeholder {
     margin: 0 auto;
     border-radius: 4px;
     padding: 16px 32px;
-    width: 169px;
     height: 56px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #FFFFFF;
     background-color: #4D5AE5;
-    transition: background-color 250mbezier(0.4, 0, 0.2, 1);
     cursor: pointer;
     border: none;
+
+    min-width: 169px
+    font-weight: 500;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-btm:hover,
