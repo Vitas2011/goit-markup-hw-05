@@ -682,6 +682,10 @@ textarea::placeholder {
     min-height: 58px;
 }
 
+.modal-field-checkbox {
+  margin-bottom: 24px;
+}
+
 .modal-input-wrap {
     position: relative;
     width: 360px;
@@ -758,10 +762,12 @@ textarea::placeholder {
     border-radius: 2px;
     border: 1px solid #2E2F42;
     margin-right: 8px;
-    display: flex;
     align-items: center;
     justify-content: center;
     fill: transparent;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-flex;
 }
 
 .modal-check-a {
