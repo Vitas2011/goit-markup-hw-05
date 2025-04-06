@@ -740,10 +740,6 @@ textarea::placeholder {
     border-color: #4D5AE5;
 }
 
-/*.modal-textarea::placeholder {
-    margin-top: 8px;
-    margin-left: 16px;
-}*/
 
 .modal-check-text {
     font-size: 12px;
