@@ -511,7 +511,7 @@ margin-bottom: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    padding-bottom: 16px;
+    margin-bottom: 16px;
 }
 
 .footer-form {
@@ -527,10 +527,18 @@ margin-bottom: 16px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background-color: transparent;
     padding-left: 16px;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #ffffff;
 }
 
 .footer-btn {
-    width: 165px;
     height: 40px;
     border-radius: 4px;
     padding: 8px 24px;
@@ -539,11 +547,13 @@ margin-bottom: 16px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    text-align: center;
     color: #FFFFFF;
     border: none;
     display: flex;
-    align-items: center;
+    /*align-items: center;*/
+    min-width: 165px;
+    justify-content: center;
+    cursor: pointer;
 }
 
 .footer-icon-frame {
