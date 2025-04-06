@@ -544,11 +544,11 @@ margin-bottom: 16px;
     border: none;
     display: flex;
     align-items: center;
-    margin-left: 16px;
 }
 
 .footer-icon-frame {
   fill: #FFFFFF;
+  margin-left: 16px;
 }
 
 /*Backdrop*/
@@ -595,8 +595,7 @@ margin-bottom: 16px;
     border-radius: 4px;
     border-radius: 100%;
     fill:#2E2F42;
-    stroke-width: 1px;
-    stroke: rgba(0, 0, 0, 0.1);
+   /* stroke-width: 1px;*/
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     align-items: center;
     justify-content: center;
@@ -683,6 +682,7 @@ margin-bottom: 16px;
  width: 360px;
  min-height: 120px;
  border-radius: 4px;
+ resize: none;
 }
 
 .modal-textarea:hover {
@@ -741,6 +741,7 @@ margin-bottom: 16px;
     background-color: #4D5AE5;
     transition: background-color 250mbezier(0.4, 0, 0.2, 1);
     cursor: pointer;
+    border: none;
 }
 
 .modal-btm:hover,
