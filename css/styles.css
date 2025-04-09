@@ -29,6 +29,8 @@ a {
 
 img {
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 /* Header */
@@ -420,9 +422,6 @@ padding: 120px 0 120px;
 .footer-div {
     display: flex;
     align-items: baseline;
-
-   /* justify-content: space-between;
-    align-items: center;*/
 }
 
 .footer-container {
